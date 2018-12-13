@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>我的购物车</title>
+	<link rel="stylesheet" type="text/css" href="css/shoppingcar.css"/>
+</head>
+<body>
+<!--header-->
+<header>
+	<div id="header">
+		<img src="img/login.jpg"/>
+		<ul>
+			<li>
+				<a href="login.html">登录</a>
+				<a href="register.html">注册</a>
+				<span>|</span>
+			</li>
+			<li><a href="#">购物车</a>
+				<span>|</span>
+			</li>
+			<li><a href="#">消息</a>
+				<span>|</span>
+			</li>
+			<li><a href="#">添加良品</a></li>
+		</ul>
+	</div>
+</header>
+<!--nav-->
+<nav>
+	<div id="nav">
+		<ul class="uls1">
+			<li><a href="index.html">首页</a></li>
+			<li>
+				<a href="indexshop.html">商店</a>
+				<div class="navbox">
+					<ul>
+						<li>
+							<a href="#">
+								<img src="img/23687.png"/>
+								<p>家居</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23686.png"/>
+								<p>文具</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23683.png"/>
+								<p>数码</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23682.png"/>
+								<p>玩乐</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23684.png"/>
+								<p>餐厨</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23680.png"/>
+								<p>美食</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23678.png"/>
+								<p>服装</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23676.png"/>
+								<p>鞋包</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23675.png"/>
+								<p>配饰</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23681.png"/>
+								<p>美护</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23674.png"/>
+								<p>出行</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23668.png"/>
+								<p>图书</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/23672.png"/>
+								<p>艺术</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/30074.png"/>
+								<p>水具</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/30029.png"/>
+								<p>运动</p>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="img/30028.png"/>
+								<p>情趣</p>
+							</a>
+						</li>
+						
+					</ul>
+					<div class="rightbox">
+						<div class="graybox">
+							<img src="img/newview.jpg"/>
+						</div>
+						<p>新视线：2015年7月刊</p>
+					</div>
+				</div>
+			</li>
+			<li><a href="magazine.html">杂志</a>
+				<ul class="zz">
+					<li><a href="#">趣物</a></li>
+					<li><a href="#">数码</a></li>
+					<li><a href="#">汽车</a></li>
+					<li><a href="#">文化</a></li>
+					<li><a href="#">时尚</a></li>
+					<li><a href="#">美食</a></li>
+					<li><a href="#">建筑</a></li>
+					<li><a href="#">空间</a></li>
+					<li><a href="#">圈子</a></li>
+					<li><a href="#">清单</a></li>
+					<li><a href="#">活动</a></li>
+					<li><a href="#">视频</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="share.html">分享</a>
+				<ul>
+					<li><a href="#">男士</a></li>
+					<li><a href="#">家居</a></li>
+					<li><a href="#">数码</a></li>
+					<li><a href="#">工具</a></li>
+					<li><a href="#">玩具</a></li>
+					<li><a href="#">美容</a></li>
+					<li><a href="#">孩子</a></li>
+					<li><a href="#">宠物</a></li>
+					<li><a href="#">饮食</a></li>
+					<li><a href="#">运动</a></li>
+					<li><a href="#">文化</a></li>
+					<li><a href="#">女士</a></li>
+				</ul>
+			</li>
+			<li><a href="beautyman.html">达人</a></li>
+		</ul>
+		<img src="img/sousuo.jpg"/>
+		<span>|</span>
+	</div>
+</nav>
+<!--main-->
+<div id="main">
+	<div class="onestep">
+		|<span>购物车</span>|
+		<span>付款</span>|
+	</div>
+	<div class="shoplist">
+		<table class="carTab">
+			<tr>
+			<th class="tx1" style="width:105px;">
+				<input type="checkbox" class="checkAll" checked="checked" />全选
+			</th>
+			<th style="width:300px;">良品</th>
+			<th style="width:140px;">数量</th>
+			<th style="width:170px">单价（元）</th>
+			<th style="width:160px;">小计（元）</th>
+			<th style="width:110px;">操作</th>
+		</tr>
+		<tr class="lists1">
+			<td class="fir-td">
+				<input type="checkbox" class="card-check" checked="checked"/>
+				<a href="##">
+					<img src="img/263378.jpg"/>
+				</a>
+			</td>
+			<td class="sec-td">
+				<p><a href="##">意大利简约手作花瓶</a></p>
+				<p>颜色：白色；</p>
+			</td>
+			<td class="thi-td">
+				<img src="img/minus.png"/>
+				<input type="text" class="gwuk" value="1"/>
+				<img src="img/add.png"/>
+				<p>库存紧张</p>
+			</td>
+			<td class="price">
+				<span>1090.00</span>
+			</td>
+			<td class="sumPrice">
+				<span>1090.00</span>
+			</td>
+			<td class="last-td"> 
+				<a href="##">删除</a>
+			</td>
+		</tr>
+		<tr class="lists1">
+			<td class="fir-td">
+				<input type="checkbox" class="card-check" checked="checked"/>
+				<a href="##">
+					<img src="img/263378.jpg"/>
+				</a>
+			</td>
+			<td class="sec-td">
+				<p><a href="##">意大利简约手作花瓶</a></p>
+				<p>颜色：白色；</p>
+			</td>
+			<td class="thi-td">
+				<img src="img/minus.png"/>
+				<input type="text" class="gwuk" value="1"/>
+				<img src="img/add.png"/>
+				<p>库存紧张</p>
+			</td>
+			<td class="price">
+				<span>1090.00</span>
+			</td>
+			<td class="sumPrice">
+				<span>1090.00</span>
+			</td>
+			<td class="last-td"> 
+				<a href="##">删除</a>
+			</td>
+		</tr>
+		</table>
+		
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+

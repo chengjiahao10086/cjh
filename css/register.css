@@ -1,0 +1,200 @@
+html,body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,li,ol,dl,dd,dt{ padding:0; margin:0;}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#999999;
+}
+#register{
+	width:550px;
+	height:540px;
+	margin:130px auto;
+	margin-bottom:0px;
+}
+#register form ul li{
+	margin-top:20px;
+	width:550px;
+	height:50px;
+	}
+#register form>ul>li:nth-child(1) lable{
+	color:white;
+	font-size:14px;
+	font-weight:800;
+	margin-right:43px;
+}
+#register form>ul>li:nth-child(1) .ipone{
+	width:300px;
+	height:50px;
+	background:#cacaca;
+	color:white;
+	font-weight:800;
+	padding-left:10px;
+	font-size:14px;
+}
+#register form>ul>li:nth-child(2){
+	position:relative;
+}
+#register form>ul>li:nth-child(2) lable{
+	color:white;
+	font-size:14px;
+	font-weight:800;
+	margin-right:43px;
+}
+#register form>ul>li:nth-child(2) .yzm{
+	width:225px;
+	height:50px;
+	background:#cacaca;
+	color:white;
+	font-weight:800;
+	padding-left:10px;
+	font-size:14px;
+}
+form>ul>li:nth-child(2) .yzm2{
+	width:64px;
+	height:28px;
+	background:white;
+	border:1px solid black;
+	position:absolute;
+	left:340px;
+	top:25px;
+}	
+form>ul>li:nth-child(2) a{
+	font-size:12px;
+	color:white;
+	font-weight:800;
+	display:inline-block;
+	position:absolute;
+	left:410px;
+	top:40px;
+}
+
+
+#register form>ul>li:nth-child(3){
+	position:relative;
+}
+#register form>ul>li:nth-child(3) lable{
+	color:white;
+	font-size:14px;
+	font-weight:800;
+	margin-right:29px;
+}
+#register form>ul>li:nth-child(3) .password{
+	width:300px;
+	height:50px;
+	background:#cacaca;
+	color:white;
+	font-weight:800;
+	padding-left:10px;
+	font-size:14px;
+}
+#register form>ul>li:nth-child(3) .pass21{
+	display:inline-block;
+	width:126px;
+	height:10px;
+	background:#f5f5f5;
+	position:absolute;
+	left:414px;
+	top:12px;
+} 
+
+#register form>ul>li:nth-child(3) .pass22{
+	width:125px;
+	height:10px;
+	position:absolute;
+	left:414px;
+	top:24px;
+}
+#register form>ul>li:nth-child(3) .pass22 span{
+	float:left;
+}
+form>ul>li:nth-child(3) .pass22 span:nth-child(2){
+	margin-left:36px;
+	margin-right:36px;
+}
+
+
+#register form>ul>li:nth-child(4) lable{
+	color:white;
+	font-size:14px;
+	font-weight:800;
+	margin-right:28px;
+}
+#register form>ul>li:nth-child(4) .repass{
+	width:300px;
+	height:50px;
+	background:#cacaca;
+	color:white;
+	font-weight:800;
+	padding-left:10px;
+	font-size:14px;
+}
+#register form>p:nth-of-type(1){
+	margin-top:30px;
+}
+#register form>p:nth-of-type(1) span{
+	color:white;
+	font-size:14px;
+	margin-left:10px;
+	margin-right:5px
+}
+#register form>p:nth-of-type(1) a{
+	font-size:14px;
+}
+
+#register form>p:nth-of-type(2){
+	width:310px;
+	height:50px;
+	background:#25292e;
+	border-radius:5px;
+	margin-top:14px;
+	margin-left:92px;	
+}
+#register form>p:nth-of-type(2)>a{
+	/*width:310px;
+	height:50px;*/
+	font-size:18px;
+	font-weight:800;
+	line-height:50px;
+	text-align:center;
+	color:white;
+	padding-left:116px;
+}
+#register form .footer{
+	width:310px;
+	height:50px;
+	/*background:orange;*/
+	margin-top:20px;
+	margin-left:92px;
+}
+#register form .footer .fourp{
+	float:left; 
+	padding-top:24px;
+}
+#register form .footer .fourp img{
+	margin-right: 14px;
+	opacity:1;
+}
+#register form .footer .fourp img:hover{
+	opacity:0.5;
+}
+#register form .footer .fourp img:nth-child(4){
+	margin-right:0px;
+}
+#register form .footer>a{
+	width:62px;
+	height:22px;
+	float:left;
+	color:#fff;
+	padding-top:24px;
+	margin-left:80px;
+	font-size:14px;
+	font-weight:800px;
+	border-bottom:1px solid white;
+}

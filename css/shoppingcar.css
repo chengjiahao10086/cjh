@@ -1,0 +1,289 @@
+html,body,h1,h2,h3,h4,h5,h6,p,a,img,input,ul,li,ol,dl,dd,dt{ padding:0; margin:0;}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration:none;
+}
+html,body{
+	margin:0;
+	padding:0;
+}
+body{
+	position:relative;
+}
+header{
+	width:100%;
+	height:57px;
+	background:#25292e;
+}
+/*header*/
+#header{
+	width:1000px;
+	height:57px;
+	margin:0 auto;
+	
+}
+#header img{
+	float:left;
+	opacity:1;
+}
+#header img:hover{
+	opacity:0.6;
+}
+#header ul{
+	float:right;
+}
+#header li{
+	display:inline-block;
+	height:57px;
+	line-height:57px;
+	
+}
+#header li a{
+	font-size:12px;
+	color:#666666;
+}
+#header li span{
+	color:#666666;
+	margin-left:16px;
+	margin-right:16px;
+}
+#header li:nth-child(1) a{
+	color:#a0a1cc;
+}
+/*nav*/
+nav{
+	width:100%;
+	height:45px;
+}
+#nav{
+	width:1000px;
+	height:45px;
+	margin:0 auto;
+	border-bottom:4px solid #ededed;
+	position:relative;
+	/*background:orange;*/
+}
+#nav>ul{
+	float:left;
+	
+}
+#nav>ul>li{
+	display: inline-block;
+	height:45px;
+	line-height: 45px;
+	width:121px;
+	margin-right: 38px;
+	text-align: center;
+}
+#nav>ul>li:hover{
+	border-bottom:4px solid black;
+}
+#nav>ul>li:nth-child(1){
+	width:118px;
+	margin-right: 0px;
+	text-align:left;
+}
+#nav>ul>li:nth-child(5){
+	margin-right: 0px;
+}
+#nav>ul>li a{
+	font-size: 14px;
+	color:#333333;
+}
+#nav>span{
+	height:45px;
+	float:right;
+	margin-top:12px;
+	color:#ededed;
+}
+#nav>img{
+	float:right;
+	margin:15px 13px 11px;
+}
+
+#nav>ul>li:nth-child(2) .navbox{
+	width:1000px;
+	height:500px;
+	background:white;
+	position:absolute;
+	left:0;
+	top:50px;
+	overflow:hidden;
+	z-index:100;
+	display:none;
+}
+#nav>ul>li:nth-child(2):hover .navbox{
+	display:block;
+}
+
+#nav>ul>li:nth-child(2) .navbox ul{
+	width:670px;
+	height:500px;
+	float:left;
+	/*background:orange;*/
+}
+
+#nav>ul>li:nth-child(2) .navbox ul li a{
+	width:42px;
+	display:inline-block;
+	float:left;
+	margin-top:35px;
+	margin-right:53px;
+}
+
+#nav>ul>li:nth-child(2) .navbox ul img{
+	width:40px;
+	height:40px;
+	float:left;
+}
+#nav>ul>li:nth-child(2) .navbox ul p{
+	font-size:14px;
+	line-height:18px;
+	color:gray;
+	font-weight:800;
+}
+#nav>ul>li:nth-child(2)
+.navbox .rightbox{
+	width:250px;
+	height:500px;
+	display:inline-block;
+	float:right;
+	/*background:blue;*/
+	
+} 
+ #nav>ul>li:nth-child(2)
+.navbox .rightbox .graybox{
+	width:230px;
+	height:230px;
+	/*background:gray;*/
+	overflow:hidden;
+	margin-left:12px;
+	margin-top:40px;
+}
+   #nav>ul>li:nth-child(2)
+.navbox .rightbox .graybox img{
+	width:100%;
+	height:100%;
+}
+  
+  
+ #nav>ul>li:nth-child(3) ul{
+ 	position:absolute;
+ 	width:1000px;
+ 	height:220px;
+ 	left:0;
+ 	top:50px;
+ 	z-index:1;
+ 	background:white;
+ 	display:none;
+ }
+ #nav>ul>li:nth-child(3) ul li{
+ 	display:inline-block;
+ 	float:left;
+ 	margin-right:68px;
+ 	margin-top:28px;
+ 	
+ }
+  #nav>ul>li:nth-child(3):hover ul{
+  	display:block;
+  }
+  
+  
+ #nav>ul>li:nth-child(4) ul{
+ 	position:absolute;
+ 	width:1000px;
+ 	height:180px;
+ 	left:0;
+ 	top:50px;
+ 	z-index:1;
+ 	background:white;
+ 	display:none;
+ }
+ #nav>ul>li:nth-child(4) ul li{
+ 	display:inline-block;
+ 	float:left;
+ 	margin-left:20px;
+ 	margin-right:68px;
+ 	margin-top:15px;
+ 	
+ }
+  #nav>ul>li:nth-child(4):hover ul{
+  	display:block;
+ }
+/*main*/
+#main{
+	width:1000px;
+	height:600px;
+	margin:60px auto;
+}
+#main .onestep{
+	width:290px;
+	height:30px;
+	margin:0px auto;
+	/*background:blue;*/
+}
+#main .onestep span{
+	line-height:30px;
+}
+#main .onestep span:nth-child(1){
+	margin-left:45px;
+	margin-right:45px;
+	color:#6393b4;
+}
+#main .onestep span:nth-child(2){
+	margin-left:50px;
+	margin-right:50px;
+	color:#7a6666;
+}
+/*购物车主要功能实现的地方*/
+.shoplist{
+	width:100%;
+	margin-top:20px;
+	color:#666666;
+}
+.shoplist .carTab {
+	width:100%;
+	border-bottom:2px solid #CCCCCC;
+}
+.shoplist .carTab tr th:nth-child(1){
+	text-align:left;
+}
+.shoplist .carTab tr th{
+	border-bottom:2px solid #CCCCCC;
+	padding:15px 5px;
+	font-size:14px;
+}
+.shoplist .carTab tr td{
+	text-align:center;
+}
+.shoplist .carTab .lists1 .fir-td>a{
+	display:inline-block;
+	width:70px;
+	height:70px;
+}
+.shoplist .carTab .lists1 .fir-td .card-check{
+	float:left;
+}
+.shoplist .carTab .lists1 .fir-td>a img{
+	width:70px;
+	height:70px;
+}
+.sec-td p{
+	font-size:14px;
+	text-align:left;
+}
+.sec-td p:nth-child(1) a{
+	color:#96a5c3;
+}
+.thi-td>p{
+	font-size:12px;
+	color:#6393b4;
+}
+ .gwuk{
+	width:16px;
+	display:inline-block;
+} 
+
+
